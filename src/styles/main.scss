@@ -1,0 +1,55 @@
+@import './_App.scss';
+@import './_sidebar.scss';
+@import './_dropdown.scss';
+@import './_header.scss';
+@import './_page-title.scss';
+@import './_products-filter.scss';
+@import './_range-slider.scss';
+@import './_search-filter.scss';
+@import './_products.scss';
+@import './_product.scss';
+@import './_rating.scss';
+@import './_pagination.scss';
+@import './_footer.scss';
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Source Sans 3', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    font-size: 1rem;
+    ul{
+        list-style: none;
+    }
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+    &:hover{
+        background-color: #6e6b7b;
+    }
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #b4b7bd; 
+    border-radius: 5px;
+}
